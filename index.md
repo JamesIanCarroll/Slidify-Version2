@@ -35,11 +35,6 @@ knit        : slidify::knit2slides
 * Gives enhanced detail for more focused analysis
 * Utilises a simple, intuitive design
 
-
-```
-## Warning: package 'ggplot2' was built under R version 3.1.3
-```
-
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
 
 ---

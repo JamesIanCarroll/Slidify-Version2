@@ -35,7 +35,7 @@ knit        : slidify::knit2slides
 * Gives enhanced detail for more focused analysis
 * Utilises a simple, intuitive design
 
-```{r echo=FALSE, fig.width=7, fig.height=4}
+```{r echo=FALSE, warning=FALSE, fig.width=7, fig.height=4}
 library(ggplot2)
 
 ggplot(mtcars, aes(factor(mtcars[,2]), mtcars[,7])) +
