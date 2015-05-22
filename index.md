@@ -1,54 +1,60 @@
 ---
-title       : Property Investor Calculator
-subtitle    : www.rwstang.com
-author      : Raymond Wai Shing Tang
-job         : Property Hunter
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+title       : Pitching My Shiny App! 
+subtitle    : My First Slidify
+author      : James Carroll
+job         : 
+framework   : revealjs      # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
-logo        : logo.png
 ---
 
-## Problem
+## Introduction
 
-I want to make decisions on property investments based on the property's rental yield and holding cost. 
+1. What does my app do?
+2. Why is it good?
+3. How can it be extended?
+4. Conclusion
 
-Better still, it would be great to be able to make comparisons of these numbers to properties that I'm currently interested in.
+---  
+
+## What does my app do?
+
+* Lets the user select a Factor variable and a Performance Metric
+* The chosen variables are plotted as a Box and Whisker diagram in the first tab (example given below)
+* The chosen variables are tabulated in the second tab
+
 
 ---
 
-## Proposed Solution
+## Why is it good?
 
-Let's make it easy for property investors to work out the rental yield and holding cost with a calculator that they use on the road.
-
-The solution can be very simply a web application that takes in the numbers about a property that a real estate agent can provide and works out the rental yield and holding costs for the property investor.
-
----
-
-## Submitted Solution
-
-So to calculate the rental yield of a property that is selling for $500,000 and the market rent is at $550, we can use the web application and run the following.
+* Provides quick, easy, interactive data visualisation
+* Gives enhanced detail for more focused analysis
+* Utilises a simple, intuitive design
 
 
-```r
-550 * 52 / 500000 * 100
+```
+## Warning: package 'ggplot2' was built under R version 3.1.3
 ```
 
-```
-## [1] 5.72
-```
-
-So as a property investor inspecting a property on a Saturday morning, it's quite easy to work out that the rental yield of the property is 5.72%.
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
 
 ---
 
-## Thanks and feedback location
+## How can it be extended?
 
-I hope this helps you with your property investing decisions.
+* Example dataset can be modified to use alternatives for easy customisation
+* Additional user input could be added for determining style of graphing
+* Several datasets could be added to allow for user choice of which to view
 
-Please direct feedback to raymondwstang@gmail.com and visit www.rwstang.com
+---
 
-Thanks you for your time and feedback.
+## Conclusion
+
+* Great app for allowing user to visualise tables of data
+* Simple, intuitive, interactive design
+* Solid foundation with many avenues for extension
+
