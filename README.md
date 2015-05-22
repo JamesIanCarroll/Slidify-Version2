@@ -5,4 +5,4 @@ Coursera Course: Developing Data Products Slidify Assignment
 
 Instructions
 
-1. View the Slidify presentation at http://JamesIanCarroll.github.com/Slidify-Version2
+1. View the Slidify presentation at http://JamesIanCarroll.github.io/Slidify-Version2
